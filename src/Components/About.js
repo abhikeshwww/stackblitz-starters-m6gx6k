@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 const About = () => {
   return (
-    <div className="h-80v flex flex-col justify-center items-center">
-      <div className="flex justify-center items-center flex-col">
-        <p className="text-4xl font-bold leading-10">Know Me More</p>
-        <span className="border border-blue-400 w-48 border-opacity-80"></span>
+    <div className="pt-32 pb-32 flex flex-col justify-center items-center">
+      <div className="flex text-center relative">
+        <h1 className="opacity-5 text-7xl mt-0 -mb-2">ABOUT ME</h1>
+        <p className="text-4xl font-bold leading-10 absolute ">Know Me More</p>
+        <span className="border border-blue-400 w-48 border-opacity-80 mb-11"></span>
       </div>
 
       <div className="flex justify-center ">
