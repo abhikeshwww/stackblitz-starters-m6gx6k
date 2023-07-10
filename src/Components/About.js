@@ -32,6 +32,22 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <div>
+        <ul>
+          <li>
+            <h1>4.5+</h1>
+            <h2>Years Experiance</h2>
+          </li>
+          <li>
+            <h1>JLPT N2</h1>
+            <h2>Certified(8/2022)</h2>
+          </li>
+          <li>
+            <h1>1.5+</h1>
+            <h2>Years living in Japan</h2>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
