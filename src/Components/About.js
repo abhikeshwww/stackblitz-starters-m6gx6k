@@ -11,7 +11,8 @@ const About = () => {
       <div className="flex justify-center ">
         <div className="flex-col">
           <h2 className="text-3xl font-bold">
-            I'm <span className="text-blue-300">Abhikesh Wale,</span> a FrontEnd Developer
+            I'm <span className="text-blue-300">Abhikesh Wale,</span> a FrontEnd
+            Developer
           </h2>
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,15 +26,23 @@ const About = () => {
         </div>
         <div className="flex flex-1 flex-col w-1/4">
           <ul>
-            <li><b>Name</b>: Abhikesh Wale</li>
-            <li><b>Email:</b> abhikeshwale@gmail.com</li>
-            <li><b>Age:</b> 27</li>
-            <li><b>From:</b> Maharashtra, India</li>
+            <li>
+              <b>Name</b>: Abhikesh Wale
+            </li>
+            <li>
+              <b>Email:</b> abhikeshwale@gmail.com
+            </li>
+            <li>
+              <b>Age:</b> 27
+            </li>
+            <li>
+              <b>From:</b> Maharashtra, India
+            </li>
           </ul>
         </div>
       </div>
-      <div className="flex flex-col">
-        <ul >
+      <div>
+        <ul className="flex justify-center p-5">
           <li>
             <h1>4.5+</h1>
             <h2>Years Experiance</h2>
