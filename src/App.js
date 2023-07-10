@@ -1,11 +1,15 @@
 import React from "react";
 import "./style.css";
+import About from './Components/About';
+import Head from './Components/Head';
+import Home from './Components/Home';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Head></Head>
+    <Home></Home>
+    <About/>
     </div>
   );
 }

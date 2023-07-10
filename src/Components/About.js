@@ -1,0 +1,38 @@
+import React, { useState } from "react";
+const About = () => {
+  return (
+    <div className="h-80v flex flex-col justify-center items-center">
+      <div className="flex justify-center items-center flex-col">
+        <p className="text-4xl font-bold leading-10">Know Me More</p>
+        <span className="border border-blue-400 w-48 border-opacity-80"></span>
+      </div>
+
+      <div className="flex justify-center ">
+        <div className="flex-col">
+          <h2 className="text-3xl font-bold">
+            I'm <span className="text-blue-300">Abhikesh Wale,</span> a FrontEnd Developer
+          </h2>
+          <p className="text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incis nostrud exerlaborum.
+          </p>
+          <p className="text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididuitation ullamco laboris nin reprehenderit in
+            voluptate velip proidentollorum.
+          </p>
+        </div>
+        <div className="flex flex-1 flex-col w-1/4">
+          <ul>
+            <li><b>Name</b>: Abhikesh Wale</li>
+            <li><b>Email:</b> abhikeshwale@gmail.com</li>
+            <li><b>Age:</b> 27</li>
+            <li><b>From:</b> Maharashtra, India</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;
