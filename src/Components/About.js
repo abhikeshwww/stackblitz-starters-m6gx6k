@@ -32,8 +32,8 @@ const About = () => {
           </ul>
         </div>
       </div>
-      <div>
-        <ul>
+      <div className="flex flex-col">
+        <ul >
           <li>
             <h1>4.5+</h1>
             <h2>Years Experiance</h2>
