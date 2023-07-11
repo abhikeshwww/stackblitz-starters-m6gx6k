@@ -15,7 +15,7 @@ const Head = () => {
       </div>
       <div className="flex flex-1 items-center justify-center font-normal">
         <div className="flex-10">
-          <ul className="flex gap-8 ml-16 text-xl hover:cursor-pointer">
+          <ul className="font-display flex gap-8 ml-16 text-xl hover:cursor-pointer">
             <li>Home</li>
             <li>About</li>
             <li>Resume</li>

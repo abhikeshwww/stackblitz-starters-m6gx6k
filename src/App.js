@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 
 export default function App() {
   return (
-    <div>
+    <div className="font-Sora">
       <Head></Head>
       <Home></Home>
       <About />
