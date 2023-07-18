@@ -11,11 +11,11 @@ const Head = () => {
   return (
     <div className="h-10v flex justify-between sticky ">
       <div className="flex-1 items-center flex gap-8">
-        <div className="font-bold text-5xl">Abhikesh</div>
+        <div className="font-bold text-xl">Abhikesh</div>
       </div>
       <div className="flex flex-1 items-center justify-center font-normal">
         <div className="flex-10">
-          <ul className="font-display flex gap-8 ml-16 text-xl hover:cursor-pointer">
+          <ul className="flex gap-8 ml-16 hover:cursor-pointer">
             <li>Home</li>
             <li>About</li>
             <li>Resume</li>
